@@ -1,4 +1,4 @@
-# url-shortener
+# goto
 
 My free URL shortener hack.
 

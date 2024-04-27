@@ -1,82 +1,14 @@
 [
   {
     "name": "index",
-    "url": "https://tusharsadhwani.dev"
+    "url": "https://github.com/nikofabelo"
   },
   {
     "name": "404",
-    "url": "https://tusharsadhwani.dev"
+    "url": "https://github.com/nikofabelo"
   },
   {
-    "name": "blog",
-    "url": "https://sadh.life"
-  },
-  {
-    "name": "cv",
-    "url": "https://drive.google.com/file/d/1AtajQ2ht1sKebA_06Iz-mOlXg34ysA4P/view?usp=sharing"
-  },
-  {
-    "name": "dev",
-    "url": "https://dev.to/tusharsadhwani"
-  },
-  {
-    "name": "dis",
-    "url": "https://discord.gg/XjAQ53YbpE"
-  },
-  {
-    "name": "gh",
-    "url": "https://github.com/tusharsadhwani"
-  },
-  {
-    "name": "gr",
-    "url": "https://github.com/tusharsadhwani?tab=repositories"
-  },
-  {
-    "name": "ls",
-    "url": "https://github.com/tusharsadhwani/url-shortener/edit/master/links.json"
-  },
-  {
-    "name": "medium",
-    "url": "https://medium.com/@tusharsadhwani"
-  },
-  {
-    "name": "mypy",
-    "url": "https://sadh.life/post/mypy-guide"
-  },
-  {
-    "name": "o",
-    "url": "https://streamelements.com/dashboard/overlays"
-  },
-  {
-    "name": "post",
-    "url": "https://sadh.life/posts/url-shortener"
-  },
-  {
-    "name": "pythonic",
-    "url": "https://docs.google.com/presentation/d/1Ri0KBLrDySNTCFCNgBE0CujC2ReNgzmUPBSgYaNW8mI"
-  },
-  {
-    "name": "sa",
-    "url": "https://docs.google.com/presentation/d/1nctflxJ66kra6EqielPc0TQpRPBF1F6orm9zryRltqw"
-  },
-  {
-    "name": "t",
-    "url": "https://github.com/tusharsadhwani/t"
-  },
-  {
-    "name": "tv",
-    "url": "https://twitch.tv/drunktimelord"
-  },
-  {
-    "name": "tc",
-    "url": "https://www.twitch.tv/popout/drunktimelord/chat?popout"
-  },
-  {
-    "name": "tr",
-    "url": "https://github.com/tusharsadhwani/twitch"
-  },
-  {
-    "name": "wat",
-    "url": "https://docs.google.com/presentation/d/1ixzKA47YHFhfkZAPQVOf9LIqZ8PFNwr16Ab3knbE3M4"
+    "name": "fakesudo",
+    "url": "https://gist.github.com/pirateaye/b65ed7655dc0733eeb5183cec188ed29/raw"
   }
 ]

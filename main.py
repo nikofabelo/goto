@@ -1,29 +1,22 @@
-"""URL Shortener Hack"""
-import json
-import os
-import shutil
-
+#!/usr/bin/env python3
+# from argparse import ArgumentParser
+import json, os, shutil
 
 def main():
-    """Main Function"""
-    html = '<html><head><meta http-equiv="refresh" content="0;url={url}" /></head></html>'
+	html = '<html><head><meta http-equiv="refresh" content="0;url={url}" /></head></html>'
 
-    with open('links.json') as f:
-        links = json.load(f)
+	with open("links.json") as rf:
+		links = json.load(rf)
 
-    shutil.rmtree('dist', ignore_errors=True)
-    os.mkdir('dist')
+	shutil.rmtree("dist", ignore_errors=True)
+	os.mkdir("dist")
 
-    with open('dist/CNAME', 'w') as f:
-        f.write('tshr.me')
+	for link in links:
+		html_document = html.format(url=link["url"])
+		file_path = f'dist/{link["name"]}.html'
 
-    for link in links:
-        html_document = html.format(url=link['url'])
-        file_path = f"dist/{link['name']}.html"
-
-        with open(file_path, 'w') as f:
-            f.write(html_document)
-
+		with open(file_path, "w") as wf:
+			wf.write(html_document)
 
 if __name__ == "__main__":
-    main()
+	main()
